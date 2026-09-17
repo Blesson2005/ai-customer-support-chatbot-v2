@@ -1,0 +1,37 @@
+[
+  {
+    "category": "Greeting",
+    "questions": ["hello", "hi", "hey", "good morning"],
+    "answer": "Hello! 👋 Welcome to customer support. How can I help you today?"
+  },
+  {
+    "category": "Order",
+    "questions": ["where is my order", "track my order", "order status", "how can I track my order"],
+    "answer": "You can track your order from your account's Orders section using the tracking number provided after shipment."
+  },
+  {
+    "category": "Delivery",
+    "questions": ["how long does delivery take", "delivery time", "when will my package arrive", "shipping time"],
+    "answer": "Standard delivery usually takes 3–7 business days after dispatch. Actual delivery time can vary by location."
+  },
+  {
+    "category": "Returns",
+    "questions": ["how do i return", "return an item", "can i return my order", "return policy"],
+    "answer": "To return an eligible item, open your order details and select the return option. Keep the item and packaging ready for pickup."
+  },
+  {
+    "category": "Refund",
+    "questions": ["when will i get my refund", "refund status", "how long does refund take", "money back"],
+    "answer": "Refund timing depends on the payment method. Once a refund is approved, it may take several business days to appear in your account."
+  },
+  {
+    "category": "Payment",
+    "questions": ["payment failed", "my payment is not working", "card payment failed", "cannot pay"],
+    "answer": "Please check your card details, available balance, and internet connection. You can also try another supported payment method."
+  },
+  {
+    "category": "Contact",
+    "questions": ["contact support", "talk to an agent", "customer care", "support team"],
+    "answer": "Please provide your order ID when contacting support so the team can assist you faster."
+  }
+]
