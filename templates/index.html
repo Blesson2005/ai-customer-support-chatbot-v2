@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Customer Support</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <main class="chat-shell">
+    <header>
+      <div class="avatar">AI</div>
+      <div>
+        <h1>Customer Support</h1>
+        <p>AI-powered support assistant</p>
+      </div>
+      <span class="status">● Online</span>
+    </header>
+
+    <section id="chat" class="chat-area">
+      <div class="message bot">Hi! 👋 I'm your support assistant. Ask me about orders, delivery, returns, refunds, or payments.</div>
+    </section>
+
+    <div class="suggestions">
+      <button onclick="useSuggestion('Where is my order?')">Track order</button>
+      <button onclick="useSuggestion('How do I return an item?')">Returns</button>
+      <button onclick="useSuggestion('When will I get my refund?')">Refund</button>
+    </div>
+
+    <form id="chat-form">
+      <input id="message" autocomplete="off" placeholder="Type your question..." required>
+      <button type="submit">Send</button>
+    </form>
+  </main>
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
